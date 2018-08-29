@@ -1,0 +1,29 @@
+#BlueJ class context
+comment0.params=arr
+comment0.target=double\ getMean(double[])
+comment0.text=\r\n\ Compute\ the\ mean\ of\ the\ values\ in\ arr.\r\n\ \r\n\ @param\ arr\ array\ of\ doubles.\r\n\ @return\ the\ mean\ of\ the\ values\ in\ arr.\r\n
+comment1.params=arr
+comment1.target=double\ getMax(double[])
+comment1.text=\r\n\ Find\ the\ maximum\ of\ the\ values\ in\ arr.\r\n\ \r\n\ @param\ arr\ array\ of\ doubles.\r\n\ @return\ the\ maximum\ value\ in\ arr.\r\n
+comment2.params=arr
+comment2.target=double\ getMin(double[])
+comment2.text=\r\n\ Find\ the\ minimum\ of\ the\ values\ in\ arr.\r\n\ \r\n\ @param\ arr\ array\ of\ doubles.\r\n\ @return\ the\ minimum\ value\ in\ arr.\r\n
+comment3.params=arr
+comment3.target=double\ getMedian(double[])
+comment3.text=\r\n\ Find\ the\ median\ of\ the\ values\ in\ arr.\r\n\ \r\n\ @param\ arr\ array\ of\ doubles.\r\n\ @return\ the\ medain\ of\ the\ values\ in\ arr.\r\n
+comment4.params=arr\ mean
+comment4.target=double\ getVariance(double[],\ double)
+comment4.text=\r\n\ Find\ the\ variance\ of\ the\ values\ in\ arr.\ If\ the\ mean\ of\ the\ values\r\n\ is\ known\ use\ this\ method\ to\ avoid\ recalculating\ the\ mean\ when\r\n\ computing\ the\ variance.\r\n\ \r\n\ @param\ arr\ an\ array\ of\ doubles.\r\n\ @param\ mean\ the\ mean\ of\ the\ values\ in\ arr.\r\n\ @return\ the\ variance\ of\ the\ values\ in\ arr.\r\n
+comment5.params=arr
+comment5.target=double\ getVariance(double[])
+comment5.text=\r\n\ Find\ the\ variance\ of\ the\ values\ in\ arr.\ This\ method\ first\ computes\r\n\ the\ mean\ of\ the\ values\ in\ arr\ and\ then\ calls\ the\ two\ arg\ getVariance\ method.\r\n\ So\ if\ the\ mean\ value\ is\ already\ known\ just\ call\ the\ two\ arg\ getVariance\r\n\ method\ directly\ to\ prevent\ recalculation\ of\ the\ mean.\r\n\ \r\n\ @param\ arr\ array\ of\ doubles.\r\n\ @return\ the\ variance\ of\ the\ values\ in\ arr.\r\n
+comment6.params=variance
+comment6.target=double\ getStdDev(double)
+comment6.text=\r\n\ Compute\ the\ standard\ deviation\ associated\ with\ the\ given\ variance.\ \ Note\r\n\ that\ this\ function\ just\ computes\ the\ square\ root\ of\ the\ variance\ and\ is\r\n\ only\ included\ for\ the\ sake\ of\ completeness.\r\n\ \r\n\ @param\ variance\ a\ variance\r\n\ @return\ the\ associated\ standard\ deviation.\r\n
+comment7.params=arr
+comment7.target=double\ getStdDev(double[])
+comment7.text=\r\n\ Compute\ the\ standard\ deviation\ of\ the\ values\ in\ arr.\ Note\ that\ this\ method\r\n\ first\ computes\ the\ variance\ of\ the\ values\ in\ arr\ and\ then\ calls\ the\r\n\ getStdDev(double)\ method\ with\ the\ result.\ \ If\ the\ variance\ is\ already\ known\r\n\ then\ call\ getStdDev(double)\ directly\ to\ avoid\ recomputing\ the\ variance.\r\n\ \r\n\ @param\ arr\ array\ of\ doubles.\r\n\ @return\ the\ standard\ deviation\ of\ the\ values\ in\ arr.\r\n
+comment8.params=arr1\ arr2
+comment8.target=double\ getRMS(double[],\ double[])
+comment8.text=\r\n\ Compute\ the\ RMS\ difference\ between\ the\ values\ in\ arr1\ and\ arr2.\ The\ values\ \r\n\ in\ arr1\ and\ arr2\ are\ assumed\ to\ be\ paired.\ That\ is\ the\ values\ in\ arr1[j]\ \r\n\ corresponds\ to\ the\ value\ in\ aar2[j].\ Thus\ the\ result\ of\ this\ method\ is\ the\ \r\n\ square\ root\ of\ the\ mean\ of\ the\ squared\ differences\ between\ aar1[j]\ and\ aar2[j]\r\n\ for\ all\ j.\ \ aar1\ and\ aar2\ must\ be\ the\ same\ length\ or\ this\ method\ will\r\n\ throw\ an\ IllegalArgumentException.\r\n\ \r\n\ @param\ arr1\ array\ of\ doubles.\r\n\ @param\ arr2\ array\ of\ doubles.\r\n\ @return\ the\ RMS\ difference\ between\ the\ values\ in\ arr1\ and\ the\ values\r\n\ in\ arr2.\r\n\ @throws\ IllegalArgumentException\ if\ arr1.length\ \!\=\ arr2.length.\ \r\n
+numComments=9

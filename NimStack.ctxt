@@ -1,0 +1,11 @@
+#BlueJ class context
+comment0.params=initSize
+comment0.target=NimStack(int)
+comment0.text=\r\n\ Create\ a\ new\ NimStack\ that\ initially\ contains\ initSize\ chips.\ The\ maximum\r\n\ size\ of\ a\ stack\ should\ be\ 10\ chips.\ If\ the\ value\ specified\ for\ initSize\r\n\ is\ greater\ than\ 10\ then\ the\ size\ of\ the\ stack\ should\ be\ set\ to\ 10.\ The\r\n\ minimum\ size\ of\ a\ stack\ is\ 0\ chips.\ If\ the\ value\ specified\ for\ initSize\r\n\ is\ less\ than\ 0,\ then\ the\ size\ of\ the\ stack\ should\ be\ set\ to\ 0.\r\n\ \r\n\ @param\ initSize\ the\ number\ of\ chips\ initially\ on\ this\ NimStack.\r\n
+comment1.params=
+comment1.target=int\ getNumChips()
+comment1.text=\r\n\ Get\ the\ number\ of\ chips\ that\ are\ currently\ on\ this\ NimStack.\r\n\ \r\n\ @return\ the\ number\ of\ chips\ on\ the\ stack.\r\n
+comment2.params=num
+comment2.target=void\ removeChips(int)
+comment2.text=\r\n\ Remove\ num\ chips\ from\ this\ NimStack.\ If\ num\ is\ less\ than\ one,\ then\ one\r\n\ chip\ will\ be\ removed\ from\ the\ stack\ (unless\ the\ stack\ is\ already\ empty\ in\r\n\ which\ case\ it\ remains\ empty).\ If\ num\ is\ greater\ than\ the\ number\ of\ chips\r\n\ on\ the\ stack\ then\ all\ of\ the\ remaining\ chips\ are\ removed.\r\n\ \r\n\ @param\ num\ the\ number\ of\ chips\ to\ remove.\r\n
+numComments=3

@@ -1,0 +1,17 @@
+#BlueJ class context
+comment0.params=stack1\ stack2\ stack3
+comment0.target=NimPlayer(NimStack,\ NimStack,\ NimStack)
+comment0.text=\r\n\ Create\ a\ new\ NimPlayer\ that\ will\ play\ the\ game\ using\ the\ provided\ stacks.\r\n\ \r\n\ @param\ stack1\ the\ first\ stack\ of\ chips\r\n\ @param\ stack2\ the\ second\ stack\ of\ chips\r\n\ @param\ stack3\ the\ third\ stack\ of\ chips\r\n
+comment1.params=
+comment1.target=int\ getTotalChips()
+comment1.text=\r\n\ Get\ the\ total\ number\ of\ chips\ remaining\ on\ all\ of\ the\ NimStacks.\r\n\ \r\n\ @return\ the\ total\ number\ of\ chips.\r\n
+comment2.params=
+comment2.target=void\ takeOneFromLargest()
+comment2.text=\r\n\ This\ strategy\ plays\ by\ removing\ a\ single\ chip\ from\ the\ largest\ NimStack\r\n\ (i.e.\ the\ one\ with\ the\ most\ chips).\ If\ there\ is\ a\ tie\ for\ the\ largest\r\n\ stack\ then\ the\ chip\ may\ be\ removed\ from\ any\ stack\ that\ is\ tied.\r\n
+comment3.params=
+comment3.target=void\ takeFiveFromAny()
+comment3.text=\r\n\ This\ strategy\ plays\ by\ removing\ 5\ chips\ from\ any\ NimStack\ with\ 5\ or\ more\r\n\ chips.\ If\ no\ stack\ has\ at\ least\ 5\ chips\ then\ one\ chip\ is\ removed\ from\ the\r\n\ largest\ remaining\ stack.\ If\ there\ is\ a\ tie\ for\ the\ largest\ stack\ then\ the\r\n\ chip\ may\ be\ removed\ from\ any\ stack\ that\ is\ tied.\r\n
+comment4.params=
+comment4.target=void\ takeHalfFromAny()
+comment4.text=\r\n\ This\ strategy\ plays\ by\ removing\ half\ of\ the\ chips\ from\ any\ non-empty\r\n\ stack.\ \ If\ the\ stack\ has\ an\ even\ number\ of\ chips\ then\ exactly\ half\r\n\ of\ the\ chips\ are\ removed.\ \ If\ the\ stack\ has\ an\ odd\ number\ of\ chips\ then\r\n\ half\ of\ one\ more\ than\ the\ number\ of\ chips\ are\ removed\ (e.g.\ if\ there\ \r\n\ are\ 5\ chips\ then\ (5+1)/2\ \=\ 3\ chips\ are\ removed).\r\n
+numComments=5

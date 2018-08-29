@@ -1,0 +1,21 @@
+#BlueJ class context
+comment0.params=
+comment0.target=NimGUI()
+comment0.text=\r\n\ Construct\ and\ display\ a\ new\ GUI\ for\ the\ Nim\ game.\ This\ creates\ 2\r\n\ NimPlayers\ and\ 3\ NimStacks\ that\ are\ shared\ by\ them.\r\n
+comment1.params=
+comment1.target=javax.swing.Box\ getControls()
+comment2.params=
+comment2.target=javax.swing.Box\ getPlayersAndStacks()
+comment3.params=
+comment3.target=javax.swing.JPanel\ getNimStacks()
+comment4.params=playerNum
+comment4.target=javax.swing.JPanel\ getPlayerPanel(int)
+comment5.params=playerNum
+comment5.target=javax.swing.JPanel\ getPlayerStats(int)
+comment6.params=
+comment6.target=javax.swing.JComboBox\ getStrategyList()
+comment7.params=e
+comment7.target=void\ actionPerformed(java.awt.event.ActionEvent)
+comment8.params=args
+comment8.target=void\ main(java.lang.String[])
+numComments=9
